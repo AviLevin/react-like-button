@@ -11,7 +11,7 @@ class LikeButton extends React.Component {
       this.setState({
         hasLiked: !this.state.hasLiked
       });
-    } else {
+    } else { 
       this.setState({
         hasLiked: true,
         hasDisliked: false
